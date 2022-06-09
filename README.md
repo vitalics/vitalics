@@ -1,9 +1,12 @@
 # Hi there 👋
+
 ## I am Vitali Haradkou
 
 I'm senior test automation engineer at EPAM systems. Founder of @magiqans.
 
 I love ❤️ TypeScript. Master degree of Typescript and recursive types.
+
+Check out my [blog](blog/README.md)
 
 My personal projects:
 
@@ -12,6 +15,7 @@ My personal projects:
 - [faker.ts](https://github.com/magiqans/faker.ts)
 
 ## Tech Stack
+
 `JavaScript`, `TypeScript`, `Node.js`, `Selenium`, `Webdriver`, `WebdriverIO`, `Playwright`, `Puppeteer`, `TestCafe`, `Docker`, `Containers`, `AWS`, `Azure DevOps`, `Git`
 
 ## Experience
@@ -29,6 +33,6 @@ flowchart TB
 
 ```mermaid
 flowchart TB
-    A[Belarussian-Russian university, Mogilev, 2014] -->|4 years| B
-    B[Belarussian-Russian university, Mogilev, 2018, Bachelor degree of computer science] -->|2 years| C[Belarussian-Russian university, Mogilev, 2022, Master degree of computer science]
+    A[Belarusian-Russian University, Mogilev, 2014] -->|4 years| B
+    B[Belarusian-Russian university, Mogilev, 2018, Bachelor degree of computer science] -->|2 years| C[Belarusian-Russian university, Mogilev, 2022, Master degree of computer science]
 ```
