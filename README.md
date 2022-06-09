@@ -11,6 +11,7 @@ Check out my [blog](blog/README.md)
 My personal projects:
 
 - [playwright-angular-selectors](https://github.com/vitalics/playwright-angular-selectors)
+- [dotenv-guards](https://github.com/vitalics/dotenv-guards)
 - [magiqan](https://github.com/vitalics/magiqan/tree/main)
 - [faker.ts](https://github.com/magiqans/faker.ts)
 
