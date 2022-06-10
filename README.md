@@ -1,6 +1,8 @@
 # Hi there 👋
 
-![Vitali Haradkou GitHub stats](https://github-readme-stats.vercel.app/api?username=vitalics&show_icons=true&theme=radical)
+![Vitali Haradkou GitHub stats](https://github-readme-stats.vercel.app/api?username=vitalics&show_icons=true&theme=onedark)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra)
 
 ## I am Vitali Haradkou
 
@@ -12,10 +14,10 @@ Check out my [blog](blog/README.md)
 
 My personal projects:
 
-- [playwright-angular-selectors](https://github.com/vitalics/playwright-angular-selectors)
-- [dotenv-guards](https://github.com/vitalics/dotenv-guards)
-- [magiqan](https://github.com/vitalics/magiqan/tree/main)
-- [faker.ts](https://github.com/magiqans/faker.ts)
+| <!-- -->    | <!-- -->    |
+| ------------ | ------------- |
+| ![Dotenv Guards](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=dotenv-guards) | ![Playwright Angular Selectors](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=playwright-angular-selectors)    |
+| ![Faker.ts](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=faker.ts)       | ![MagiQAn](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=magiqan)    |
 
 ## Tech Stack
 
