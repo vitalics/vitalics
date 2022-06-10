@@ -1,5 +1,7 @@
 # Hi there 👋
 
+![Vitali Haradkou GitHub stats](https://github-readme-stats.vercel.app/api?username=vitalics&show_icons=true&theme=radical)
+
 ## I am Vitali Haradkou
 
 I'm senior test automation engineer at EPAM systems. Founder of @magiqans.
