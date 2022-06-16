@@ -67,6 +67,8 @@ const returnCode = resultString ? 1 : 0;
 
 if (resultString) {
   console.error(resultString);
+} else {
+  console.log('All good! ✨');
 }
 
 process.exit(returnCode); // eslint-disable-line
