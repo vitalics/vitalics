@@ -1,0 +1,22 @@
+{
+  "name": "vitalics",
+  "version": "1.0.0",
+  "description": "Vitali Haradkou personal blog and portfolio",
+  "scripts": {
+    "lint": "zx scripts/lint.mjs"
+  },
+  "keywords": [
+    "blog",
+    "markdown",
+    "node",
+    "personal",
+    "portfolio",
+    "automation"
+  ],
+  "author": "Vitali Haradkou",
+  "license": "ISC",
+  "dependencies": {
+    "markdownlint": "^0.25.1",
+    "zx": "^7.0.0"
+  }
+}

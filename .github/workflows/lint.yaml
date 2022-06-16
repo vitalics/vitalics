@@ -19,7 +19,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Lint blog file
-        uses: avto-dev/markdown-lint@v1
+      - name: Use Node.js 16
+        uses: actions/setup-node@v3
         with:
-          args: "blog/*.md"
+          node-version: 16
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2.2.2
+        with:
+          version: 7.2.1
+          run_install: |
+            - args: []
+      - run: pnpm lint
