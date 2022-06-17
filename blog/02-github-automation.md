@@ -12,3 +12,7 @@ edited: '9 June 2022'
 - Introduction
 - Idea
 - requirements
+
+## Introduction
+
+Let's start with the idea of this article. We're going to create a fully automated github repository and going to use github actions to automate the process of creating a new release.
