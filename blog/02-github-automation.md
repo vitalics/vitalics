@@ -9,12 +9,12 @@ edited: '9 June 2022'
 
 ## Table of contents
 
-- Idea.
-- Requirements.
-- Getting started.
-- Write some code.
-- Setup the CI.
-- Conclusion.
+- [Idea](#idea).
+- [Requirements](#requirements).
+- [Getting started](#getting-started).
+- [Write some code](#write-some-code).
+- [Setup the CI](#setup-the-ci).
+- [Conclusion](#conclusion).
 
 ## Idea
 
