@@ -12,10 +12,10 @@ Check out my [blog](blog/README.md)
 
 My personal projects:
 
-![Dotenv Guards](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=dotenv-guards)
-![Playwright Angular Selectors](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=playwright-angular-selectors)
-![Faker.ts](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=faker.ts)
-![MagiQAn](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=magiqan)
+[![Dotenv Guards](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=dotenv-guards)](https://github.com/vitalics/dotenv-guards)
+[![Playwright Angular Selectors](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=playwright-angular-selectors)](https://github.com/vitalics/playwright-angular-selectors)
+[![Faker.ts](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=faker.ts)](https://github.com/vitalics/faker.ts)
+[![MagiQAn](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=magiqan)](https://github.com/vitalics/magiqan)
 
 ## Tech Stack
 
