@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   markdownlint: 0.25.1
-  zx: 7.0.0
+  zx: 7.0.7
 
 dependencies:
   markdownlint: 0.25.1
-  zx: 7.0.0
+  zx: 7.0.7
 
 packages:
 
@@ -366,8 +366,8 @@ packages:
     engines: {node: '>= 14'}
     dev: false
 
-  /zx/7.0.0:
-    resolution: {integrity: sha512-QPUkzM2o/yfr8CnJgR3Uzi4ESW3IhM4iOIrDx2wJ0vZAU4Gz0Bd/wvOWdqAheJgUTc1ecTkOMpdBKCSBvVDnTg==}
+  /zx/7.0.7:
+    resolution: {integrity: sha512-cWF5cWqqrTVxgEPmQ8w/LvUXOK3rJTdgC+Tt1nz113+YncNIO0X6UXgCY72UfE8Az/lwOubbEJARXpQ+7RiM9g==}
     engines: {node: '>= 16.0.0'}
     hasBin: true
     dependencies:
