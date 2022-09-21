@@ -29,8 +29,9 @@ My career path:
 ```mermaid
 flowchart TB
     A[EPAM Systems, Junior SDET, 2019] -->|8 months| B
-    B --> |nowadays| D[MagiQAns community, Mogilev]
-    B[EPAM Systems, SDET, 2019] -->|2 years| C[EPAM Systems, Senior SDET, 2020]
+    B --> |4 years| D[MagiQAns community, Mogilev, 2022]
+    B[EPAM Systems, SDET, 2019] -->|2 years| C[EPAM Systems, Senior SDET, 2020] --> D
+    D -->|2 years| E[Digitally Inspired, Senior SDET, 2022]
 ```
 
 ## Education
