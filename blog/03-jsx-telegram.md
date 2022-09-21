@@ -146,7 +146,7 @@ Code
 import { Fragment, h } from 'preact';
 import { Telegraf } from 'telegraf';
 
-import { Bold, render } from './default';
+import { Bold, render } from '@tlgr/fmt/default';
 
 const TOKEN = '<API TOKEN>';
 const bot = new Telegraf(TOKEN);
