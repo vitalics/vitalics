@@ -4,7 +4,7 @@
 
 ## I am Vitali Haradkou
 
-I'm senior test automation engineer at EPAM systems. Founder of @magiqans.
+I'm senior test automation engineer. Founder of @magiqans.
 
 I love ❤️ TypeScript. Master degree of Typescript and recursive types.
 
