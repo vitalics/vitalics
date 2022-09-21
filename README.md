@@ -12,6 +12,7 @@ Check out my [blog](blog/README.md)
 
 My personal projects:
 
+[![Telegraph](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=telegraph)](https://github.com/vitalics/dotenv-guards)
 [![Dotenv Guards](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=dotenv-guards)](https://github.com/vitalics/dotenv-guards)
 [![Playwright Angular Selectors](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=playwright-angular-selectors)](https://github.com/vitalics/playwright-angular-selectors)
 [![Faker.ts](https://github-readme-stats.vercel.app/api/pin/?username=vitalics&repo=faker.ts)](https://github.com/vitalics/faker.ts)
