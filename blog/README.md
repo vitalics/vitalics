@@ -6,3 +6,4 @@
 
 - [my experience of using zx](01-zx.md)
 - [get started open source fully automated repository](02-github-automation.md)
+- [Using JSX in telegram texts](03-jsx-telegram.md)
