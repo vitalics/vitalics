@@ -234,3 +234,6 @@ This article is a simple guide to create a fully automated github repository and
 This is a real package and the name is [dotenv-guards](https://github.com/vitalics/dotenv-guards)
 
 Enjoy, and bye 👋!
+
+|[Previous](01-zx.md)  | [Main](README.md)  | [Next](03-dotenv-guards.md)  |
+|---------|---------|---------|
