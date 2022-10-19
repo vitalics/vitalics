@@ -3,8 +3,8 @@ title: 'Using dotenv-guards library for environment variables management'
 description: 'At this article I'll share about dotenv-guards library and how it solves our issues in current project'
 author: @vitalics
 tags: ['Node.js', 'dotenv', 'dotenv-guards', 'typescript']
-date: '19 June 2022'
-edited: '18 October 2022'
+date: 19 June 2022
+edited: 18 October 2022
 ---
 
 # Using dotenv-guards library for environment variables management
