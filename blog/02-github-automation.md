@@ -7,6 +7,8 @@ date: '18 June 2022'
 edited: '19 June 2022'
 ---
 
+# Creating fully-automated github repository with github actions
+
 ## Table of contents
 
 - [Idea](#idea).

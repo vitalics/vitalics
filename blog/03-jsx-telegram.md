@@ -1,11 +1,13 @@
 ---
-title: 'Using JSX in telegram texts'
+title: 'Using JSX for telegram bots'
 description: 'At this article I'll share how to use JSX markup with @tlgr/fmt library'
 author: @vitalics
 tags: ['Node.js', 'CLI', 'JavaScript', 'Telegram', 'Telegrah']
 date: '21 September 2022'
 edited: '21 September 2022'
 ---
+
+# Using JSX for telegram bots
 
 ## Table of contents
 
@@ -191,3 +193,6 @@ How to use this examples:
 > P.P.S. This 1.4.0 release are also posted in Telegraph blog post [page](https://vitalics.github.io/Telegraph/blog/release%201.4.0)
 
 ## Have a good day, Bye 👋
+
+|[Previous](02-github-automation.md)  | [Main](README.md)  | [Next](04-dotenv-guards.md)  |
+|---------|---------|---------|
