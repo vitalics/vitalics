@@ -189,7 +189,6 @@ How to use this examples:
 **Important**: use version 1.4.0 or higher since JSX was introduced in this release, You can also read [release](https://github.com/vitalics/Telegraph/releases/tag/v1.4.0) from official [Telegraph](https://github.com/vitalics/Telegraph) repository.
 
 > P.S. Or You can read official package API and [tutorial](https://vitalics.github.io/Telegraph/docs/tutorial/fmt/jsx) from docs page.
-
 > P.P.S. This 1.4.0 release are also posted in Telegraph blog post [page](https://vitalics.github.io/Telegraph/blog/release%201.4.0)
 
 ## Have a good day, Bye 👋
