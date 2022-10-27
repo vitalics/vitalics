@@ -2,7 +2,7 @@ import { globby, path } from 'zx';
 
 const markdownlint = require('markdownlint');
 
-const files = await globby(['blog/**/*.md', '!**/node_modules/**'], {
+const files = await globby(['blog/**/*.md', 'README.md' , '!**/node_modules/**'], {
   cwd: process.cwd(),
   gitignore: true,
 });
