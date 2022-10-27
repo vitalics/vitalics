@@ -240,11 +240,11 @@ import {
 } from 'dotenv-guards';
 
 class Environment {
-  @Expose()
-  @Transform(v => numberGuard(v.value))
-  @IsInt()
-  @Min(0)
-  @Max(10)
+  @Expose() // mark property as necessary. process.env.jobCount will be transformed on Environment.jobCount
+  @Transform(v => numberGuard(v.value)) // using transformation
+  @IsInt() // validateOrReject, check filed on integer
+  @Min(0) // validateOrReject, check filed on minimum value
+  @Max(10) // validateOrReject, check filed on maximum value
   jobCount: number;
 }
 
@@ -252,13 +252,13 @@ export let environment: Environment;
 async function parse(){
   load(); // loads .env
   environment = plainToClass(
-    Environment,
-    process.env,
-    { excludeExtraneousValues: true }
+    Environment, // use this class as base
+    process.env, // use all .env variables
+    { excludeExtraneousValues: true } // ignore undefined properties, like PATH, HOME, etc.
 );
 
   try {
-    await validateOrReject(environment);
+    await validateOrReject(environment); // validate async
   } catch (e) {
     console.log('Caught promise rejection (validation failed). Errors: ', errors);
   }
