@@ -182,13 +182,32 @@ revoke(jsonGuard);
 jsonGuard('{"qwe": true}'); // TypeError. since it was revoked
 ```
 
-The reason why `define` function is exists - is making sure that first argument is env-like(`string | undefined`)
+The reason why `define` function is exists - is making sure that first argument is env-like(`string | undefined`).
+
+It also written on Typescript and all inputs/outputs are strongly typed.
+
+First argument should be `string|undefined`. This is essential, since environment-like variables are strings.
+
+You can also define generic function.
+
+Example:
+
+``` ts
+import { define } from 'dotenv-guard';
+
+const customGuard = define(<T>(envLike: string| undefined, additionalData: T) => {
+  return additionalData;
+});
+
+customGuard('123', []); // type is array
+
+```
 
 ## Conclusion
 
 As for me - the best way to implementing `env` module is creating an object and JSON schema definitions. Since JSON schema has standards and more flexible.
 
-For example, I'll take [`class-validator`](https://github.com/typestack/class-validator) package. Or take [`ajv`](https://www.npmjs.com/package/ajv) to validate items, but also i'll pickup `dotenv-guards`. The reason why i am using it is simple - json schema used for making sure about object format, but `dotenv-guards` is used for transformations.
+For example, I'll take [`class-validator`](https://github.com/typestack/class-validator) and  [`class-transformer`](https://github.com/typestack/class-transformer) packages. And I'll also pickup `dotenv-guards` to transform properties safety.
 
 It will look like:
 
@@ -210,25 +229,33 @@ import {
   Max,
 } from 'class-validator';
 
+import {
+  Expose,
+  plainToClass,
+  Transform,
+} from 'class-transformer';
+
+import {
+  numberGuard,
+} from 'dotenv-guards';
+
 class Environment {
+  @Expose()
+  @Transform(v => numberGuard(v.value))
   @IsInt()
   @Min(0)
   @Max(10)
   jobCount: number;
-
-  @IsEmail()
-  testMail: string;
-
-  @IsFQDN()
-  baseUrl: string;
 }
 
-export const environment = new Environment();
+export let environment: Environment;
 async function parse(){
-  load();
-  environment.jobCount = +process.env.JOB_COUNT;
-  environment.testMail = process.env.TEST_MAIL;
-  environment.baseUrl = process.env.BASE_URL;
+  load(); // loads .env
+  environment = plainToClass(
+    Environment,
+    process.env,
+    { excludeExtraneousValues: true }
+);
 
   try {
     await validateOrReject(environment);
@@ -237,15 +264,15 @@ async function parse(){
   }
 }
 
+await parse(); // no errors, transformation and validation got successfully
+
 ```
 
 At this article you see how to use `dotenv-guards` library and how it solves our issues in project with dotenv usage and parsing.
 
 I hope you enjoy this article, share it with your friends and colleagues.
 
-### Last words
-
-In future releases I'll rewrite `dotenv-guards` built-in guards with using `define` function.
+## See you again, Cheers 👋
 
 |[Previous](03-jsx-temegram.md)  | [Main](README.md)  | Next |
 |---------|---------|---------|
