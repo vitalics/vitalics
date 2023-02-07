@@ -4,7 +4,9 @@
 
 ## I am Vitali Haradkou
 
-I'm senior test automation engineer. Founder of @magiqans.
+I'm Senior Software Engineer in Test.
+
+Certified [Node.js Application Developer (JSNAD)](https://www.credly.com/badges/b0b8301c-faf3-4048-9b2f-e459db219878/linked_in_profile)
 
 I love ❤️ TypeScript. Master degree of Typescript and recursive types.
 
