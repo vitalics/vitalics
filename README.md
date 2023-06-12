@@ -4,7 +4,7 @@
 
 ## I am Vitali Haradkou
 
-I'm Senior Software Engineer in Test.
+I'm SDET, Passions about Frontend.
 
 Certified [Node.js Application Developer (JSNAD)](https://www.credly.com/badges/b0b8301c-faf3-4048-9b2f-e459db219878/linked_in_profile)
 
