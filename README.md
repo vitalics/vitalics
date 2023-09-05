@@ -10,7 +10,7 @@ Certified [Node.js Application Developer (JSNAD)](https://www.credly.com/badges/
 
 I love ❤️ TypeScript. Master degree of Typescript and recursive types.
 
-Check out my recent blog posts:
+Check out my recent [blog posts](https://blog-vitaliharadkou.vercel.app/blog/):
 
 - [Using dotenv-guards library for environment variables management](https://vitalicset.notion.site/Using-dotenv-guards-library-for-environment-variables-management-9f374d61c41748238bf0c5874871a42a)
 - [Using JSX in telegram texts](https://vitalicset.notion.site/Using-JSX-for-telegram-bots-ef21523f91ba4eba99e3b92e639c620a)
