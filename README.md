@@ -39,6 +39,7 @@ flowchart TB
     B --> |4 years| D[MagiQAns community, Mogilev, 2022]
     B[EPAM Systems, SDET, 2019] -->|2 years| C[EPAM Systems, Senior SDET, 2020] --> D
     D -->|2 years| E[Digitally Inspired, Senior SDET, 2022]
+    E -->|1 year| F[B2Broker,Senior SDET , 2023]
 ```
 
 ## Education
