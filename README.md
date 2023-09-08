@@ -12,10 +12,10 @@ I love ❤️ TypeScript. Master degree of Typescript and recursive types.
 
 Check out my recent [blog posts](https://blog-vitaliharadkou.vercel.app/blog/):
 
-- [Using dotenv-guards library for environment variables management](https://vitalicset.notion.site/Using-dotenv-guards-library-for-environment-variables-management-9f374d61c41748238bf0c5874871a42a)
-- [Using JSX in telegram texts](https://vitalicset.notion.site/Using-JSX-for-telegram-bots-ef21523f91ba4eba99e3b92e639c620a)
-- [get started open source fully automated repository](https://vitalicset.notion.site/Creating-fully-automated-github-repository-with-github-actions-88c9eead38cd498a887dc58bade8779f)
-- [my experience of using zx](https://vitalicset.notion.site/My-experience-of-using-zx-library-036f5dd387854410ac5ed57a9aa746d6)
+- [k6: How to test you signalR websockets](https://blog-vitaliharadkou.vercel.app/blog/09-k6-websocket)
+- [@rslike/dbg: Debug your variables like never before!](https://blog-vitaliharadkou.vercel.app/blog/08-rslike-dbg)
+- [@rslike/cmp: compare your structures like a pro](https://blog-vitaliharadkou.vercel.app/blog/07-rslike-cmp)
+- [It's done! Rust-like API in your JavaScript code](https://blog-vitaliharadkou.vercel.app/blog/06-rslike)
 
 My personal projects:
 
