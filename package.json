@@ -16,7 +16,7 @@
   "author": "Vitali Haradkou",
   "license": "ISC",
   "dependencies": {
-    "markdownlint": "0.25.1",
+    "markdownlint": "0.34.0",
     "zx": "7.2.3"
   }
 }
