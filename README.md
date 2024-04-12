@@ -10,11 +10,12 @@ Certified [Node.js Application Developer (JSNAD)](https://www.credly.com/badges/
 
 I love ❤️ TypeScript. Master's degree in Typescript and recursive types.
 
-Check out my recent [blog posts](https://blog-vitaliharadkou.vercel.app/blog/):
+Check out my recent [blog posts](https://blog-vitaliharadkous-projects.vercel.app/blog):
 
-- [Playwright & Prometheus. Send your metrics in real-time](https://blog-vitaliharadkou.vercel.app/blog/12-playwright-prometheus)
-- [Zod is dead. Long live ajv-ts!](https://blog-vitaliharadkou.vercel.app/blog/11-ajv-ts)
-- [k6: How to test you signalR websockets](https://blog-vitaliharadkou.vercel.app/blog/09-k6-websocket)
+- [RSLike@3. Well-known Symbols, Improved TypeScript, and Bundlefobia...](https://blog-vitaliharadkous-projects.vercel.app/blog/13-rslike-v3)
+- [Playwright & Prometheus. Send your metrics in real-time](https://blog-vitaliharadkous-projects.vercel.app/blog/12-playwright-prometheus)
+- [Zod is dead. Long live ajv-ts!](https://blog-vitaliharadkous-projects.vercel.app/blog/11-ajv-ts)
+- [k6: How to test you signalR websockets](https://blog-vitaliharadkous-projects.vercel.app/blog/09-k6-websocket)
 
 ## Tech Stack
 
