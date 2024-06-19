@@ -17,6 +17,6 @@
   "license": "ISC",
   "dependencies": {
     "markdownlint": "0.25.1",
-    "zx": "7.2.3"
+    "zx": "8.1.3"
   }
 }
